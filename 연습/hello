@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;400&display=swap');
+       #hi h1{
+        font-family: 'Foldit', cursive;
+       }
+    </style>
+    </head>
+   <body>
+    <div id="hi">
+        <h1>HELLO</h1>
+        <p>Moon2</p>
+    </div>
+    
+   </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(function(){
+         $("#black").on("click", function(){
+            $("body").css({"background-color":"black"},
+            $("#hi p").css({"color":"white"}))
+            
+         });
+        });
+        $(function(){
+         $("#white").on("click", function(){
+            $("body").css({"background-color":"white"},
+            $("#hi p").css({"color":"black"}))
+           
+         });
+        });
+    </script>
+    <script>
+      var name=prompt("이름은 뭐에요?");
+       document.write("<p>"+name+"</p>");
+    </script>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;400&display=swap');
+        
+         #black{
+            float:right;
+            background-color: white;
+            border:1px double #000;
+         }
+         #white{
+            float:right;
+            background-color: white;
+            color:#000;
+         }
+        
+       #hi h1{
+       width:100%;
+       height:100px;
+       background:none;
+       text-align: center;
+       line-height: 100px;
+       font-family: 'Foldit', cursive;
+       padding: 0% auto;
+       margin:0% auto;
+       }
+       #hi>p{
+         width:100%;
+        
+        text-align:center;
+       }
+       .footer{
+
+         width:100%;
+         height:100px;
+         display:inline;
+       }
+       ul{
+         list-style-type: none;
+       }
+       p{
+         width:50px;
+         height: 10px;
+         float:left;
+       }
+      
+     
+    </style>
+    </head>
+   <body>
+    <button id="black">black</button>
+    <button id="white">white</button>
+    
+    <div id="hi">
+        <h1>HELLO</h1>
+        <p>안녕하세요 <strong>Moon2</strong> 입니다<br>방문해 주셔서 감사합니다</p>
+    </div>
+    
+    
+    <footer class="footer">
+      <nav>
+         <ul>
+            <li><a href="https://www.instagram.com/"><img src="instagram.png"width="25"height="25">instagram</a></li>
+         </ul>
+      </nav>
+    </footer>
+   </body>
+</html>
